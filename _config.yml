@@ -1,17 +1,17 @@
 # Site settings
-title: 优源
-SEOTitle: 优源博客 | YouYuan Blog
+title: 不说
+SEOTitle: 不说话 | yoshohua Blog
 header-img: img/post-bg-dutbs.jpg
-email: duter2016#foxmail.com
-description: "优源，一个有想法的地方！"
-keyword: "优源, YouYuan Blog, 优源博客, Duter2016, Duter, Linux"
-url: "https://duter2016.github.io"          # your host, for absolute URL
+email: yoshuohua@outlook.com
+description: "愿你想要的全都有，得不到的都释怀"
+keyword: "不说话, yoshohua Blog, 不说话博客, Linux"
+url: "https://yoshohua.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/Duter2016/Duter2016.github.io.git" # you code repository
+github_repo: "https://github.com/yoshohua/yoshohua.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "优源，一个有想法的地方！"
+sidebar-about-description: "愿你想要的全都有，得不到的都释怀！"
 sidebar-avatar: /img/avatar_me.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -69,7 +69,7 @@ intensedebate_comments: false
 # You can get your appid and appkey from https://leancloud.app
 # more info please open https://valine.js.org
 valine:
-  enable: true
+  enable: false
   appid:  nvYN2RxydarHJ11V8CTyuYkI-MdYXbMMI
   appkey: LHvLGcwcauE5B2JpMxJ3lbtF
   notify: true # mail notifier , https://github.com/xCss/Valine/wiki
@@ -82,7 +82,7 @@ valine:
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
+  enable: false    #是否开启Gitalk评论
   clientID: 1bcc53b44e96a84e03b5                            #生成的clientID
   clientSecret: a326c0a03b34bb2853429d6dbbe63a0477d798ce    #生成的clientSecret
   repo: Duter2016.github.io    #仓库名称
@@ -115,38 +115,6 @@ featured-condition-size: 0              # 相同标签数量大于这个数，�
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
-
-
-
-# Friends
-friends: [
-    {
-        title: "优源辅站",
-        href: "https://duter2016.gitee.io"
-    },{
-        title: "优源导航",
-        href: "https://duter2016.github.io/daohang/daohang.html"
-    },{
-        title: "朝阳无妨",
-        href: "http://www.sun0539.com"
-    },{
-        title: "罗莎之鹰",
-        href: "https://yelonhimx.wang"
-    },{
-        title: "GYS Blog",
-        href: "https://richardurben.github.io"
-    },{
-        title: "图片压缩",
-        href: "https://compressjpeg.com/zh/"
-    },{
-        title: "Valine评论",
-        href: "https://duter2016.avosapps.us/"
-    },{
-        title: "Leancloud",
-        href: "https://console.leancloud.app/"
-    }
-]
-
 
 
 
